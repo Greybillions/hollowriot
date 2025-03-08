@@ -5,8 +5,8 @@ import { CgMenuRightAlt, CgClose } from 'react-icons/cg';
 import { motion, AnimatePresence } from 'framer-motion';
 import React, { useState } from 'react';
 import Button from './Button';
-import { BsDiscord } from 'react-icons/bs';
-import { discord } from '@/constants';
+import { BsTwitterX } from 'react-icons/bs';
+import { x } from '@/constants';
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -18,6 +18,7 @@ const Header = () => {
         text='Hollow Riot'
         className='lg:w-full bg-transparent z-10 uppercase w-full'
         url='/'
+        target='_self'
       />
 
       {/* Background Circle */}
@@ -38,12 +39,13 @@ const Header = () => {
       {/* Discord Button */}
       <div className='lg:flex hidden justify-end w-full items-center'>
         <motion.div whileHover={{ rotate: 360, transition: { duration: 0.7 } }}>
-          <BsDiscord className='text-2xl text-white' />
+          <BsTwitterX className='text-2xl text-white' />
         </motion.div>
         <Button
-          text='Discord'
+          text='Twitter'
+          target='_blank'
           className='uppercase bg-transparent hover:text-[#7c80d8]'
-          url={discord}
+          url={x}
         ></Button>
       </div>
 
@@ -83,12 +85,13 @@ const Header = () => {
               <motion.div
                 whileHover={{ rotate: 360, transition: { duration: 0.7 } }}
               >
-                <BsDiscord className='text-2xl text-white' />
+                <BsTwitterX className='text-2xl text-white' />
               </motion.div>
               <Button
-                text='Discord'
+                text='Twitter'
                 className='uppercase bg-transparent hover:text-[#7c80d8]'
-                url={discord}
+                url={x}
+                target='_blank'
               ></Button>
             </div>
           </motion.div>

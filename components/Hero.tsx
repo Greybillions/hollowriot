@@ -6,7 +6,7 @@ import Button from './Button';
 
 const Hero = () => {
   return (
-    <section className='w-full flex flex-col lg:flex-row-reverse justify-center lg:gap-20 gap-5  items-center max-w-[80%] mx-auto pb-10 lg:h-screen relative h-full'>
+    <section className='w-full flex flex-col lg:flex-row-reverse justify-center lg:gap-20 gap-5  items-center max-w-[80%] mx-auto pb-10 lg:h-[90vh] relative h-full'>
       <div className='flex relative'>
         <Image
           width={600}
@@ -30,7 +30,7 @@ const Hero = () => {
       </div>
 
       <div className='flex relative z-10 flex-col justify-center h-full lg:gap-18 md:gap-15 gap-5 text-center items-start'>
-        <h1 className='lg:text-7xl md:text-5xl text-3xl text-center w-full font-bold text-white'>
+        <h1 className='lg:text-7xl md:text-5xl text-4xl text-center w-full font-bold text-white'>
           Digital Artist
         </h1>
         <p className='text-xl text-white'>
