@@ -5,6 +5,7 @@
 :root {
   --background: #ffffff;
   --foreground: #060e25;
+  scroll-behavior: smooth;
 }
 
 @theme inline {

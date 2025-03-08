@@ -3,7 +3,10 @@ import { servicesData } from '@/constants';
 
 const Services = () => {
   return (
-    <section className='relative w-full flex flex-col justify-center lg:gap-20 gap-5  items-center mx-auto mt-6 pb-10'>
+    <section
+      id='services'
+      className='relative w-full flex flex-col justify-center lg:gap-20 gap-5  items-center mx-auto mt-6 pb-10'
+    >
       <div className='flex absolute top-0 left-0 w-full h-[1px] bg-gray-600' />
       <div className='w-full h-full flex md:mt-30 mt-20 flex-col justify-center max-w-[80%] lg:h-full'>
         <h2 className='lg:text-6xl md:text-5xl text-3xl text-center w-full font-semibold text-white'>
