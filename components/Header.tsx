@@ -21,7 +21,7 @@ const Header = () => {
       />
 
       {/* Background Circle */}
-      <div className='w-40 h-40 absolute top-0 left-45 rounded-full bg-gradient-to-r from-[#162f7a] to-[#f52b8f] opacity-50 blur-md' />
+      <div className='w-40 h-40 absolute top-0 left-45 rounded-full bg-gradient-to-r from-[#162f7a] to-[#f52b8f] bg-[length:150%_150%] animate-[bg-move_10s_infinite_linear] opacity-50 blur-md' />
 
       {/* Desktop Navigation */}
       <div className='lg:flex hidden relative z-10 justify-center w-full items-center'>

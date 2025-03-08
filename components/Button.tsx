@@ -13,14 +13,14 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
 const Button: React.FC<ButtonProps> = ({
   text,
   url,
-  color = 'bg-blue-500',
+  color = 'bg-[#060e25]',
   padding = 'px-4 py-2',
   onClick,
   className,
   children,
   ...props
 }) => {
-  const baseStyles = `${color} ${padding} text-white font-semibold rounded-lg transition-all duration-300 hover:opacity-80 ${className}`;
+  const baseStyles = `${color} ${padding} text-white font-semibold rounded-lg transition-all duration-300 hover:opacity-90 ${className}`;
 
   if (url) {
     return (
