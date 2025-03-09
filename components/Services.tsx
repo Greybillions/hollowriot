@@ -12,11 +12,11 @@ const Services = () => {
         {/* Background Circle */}
         <div className='w-15 h-15 absolute top-0 left-45 rounded-full bg-gradient-to-r from-[#162f7a] to-[#f52b8f] bg-[length:150%_150%] animate-[bg-move_10s_infinite_linear] opacity-50 blur-md' />
         {/* Background Circle */}
-        <div className='w-20 h-20 absolute bottom-0 left-85 rounded-full bg-gradient-to-r from-[#162f7a] to-[#f52b8f] bg-[length:150%_150%] animate-[bg-move_6s_infinite_linear] opacity-50 blur-md' />
+        <div className='w-20 h-20 absolute bottom-0 md:left-85 left-0 rounded-full bg-gradient-to-r from-[#162f7a] to-[#f52b8f] bg-[length:150%_150%] animate-[bg-move_6s_infinite_linear] opacity-50 blur-md' />
         {/* Background Circle */}
         <div className='w-20 h-20 absolute top-70 right-30 rounded-full bg-gradient-to-r from-[#162f7a] to-[#f52b8f] bg-[length:150%_150%] animate-[bg-move_4s_infinite_linear] opacity-50 blur-md' />
         {/* Background Circle */}
-        <div className='w-25 h-25 absolute bottom-80 right-150 rounded-full bg-gradient-to-r from-[#162f7a] to-[#f52b8f] bg-[length:150%_150%] animate-[bg-move_7s_infinite_linear] opacity-50 blur-md' />
+        <div className='w-25 h-25 absolute bottom-80 md:right-150 right-10  rounded-full bg-gradient-to-r from-[#162f7a] to-[#f52b8f] bg-[length:150%_150%] animate-[bg-move_7s_infinite_linear] opacity-50 blur-md' />
         <h2 className='lg:text-6xl md:text-5xl text-3xl text-center md:text-left w-full font-semibold text-white'>
           My Services
         </h2>
