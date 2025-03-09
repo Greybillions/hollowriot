@@ -39,7 +39,7 @@ const Hero = () => {
         <div
           className='flex mx-auto gap-5 justify-center p-[3px] rounded-xl items-center
     bg-gradient-to-r from-[#1f3e9d] to-[#f52b8f] text-white uppercase text-sm
-    bg-[length:200%_200%] animate-[bg-move_5s_infinite_linear]'
+    bg-[length:200%_200%] animate-[bg-move_3s_infinite_linear]'
         >
           <Button
             text='View My Work'
@@ -50,7 +50,7 @@ const Hero = () => {
       </div>
 
       {/* Background Circle */}
-      <div className='md:w-40 md:h-40 w-30 h-30 absolute bottom-0 right-45 rounded-full bg-gradient-to-r from-[#162f7a]  bg-[length:150%_150%] animate-[bg-move_15s_infinite_linear] to-[#f52b8f] opacity-50 blur-md' />
+      <div className='md:w-40 md:h-40 w-30 h-30 absolute bottom-0 right-45 rounded-full bg-gradient-to-r from-[#162f7a]  bg-[length:150%_150%] animate-[bg-move_8s_infinite_linear] to-[#f52b8f] opacity-50 blur-md' />
     </section>
   );
 };

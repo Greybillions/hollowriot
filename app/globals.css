@@ -3,14 +3,12 @@
 @import 'tailwindcss';
 
 :root {
-  --background: #ffffff;
+  --background: #ededed;
   --foreground: #060e25;
   scroll-behavior: smooth;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
   --color-primary: #ee2c8c;
   --color-secondary: #f52b8f;
   --font-sans: var(--font-geist-sans);
