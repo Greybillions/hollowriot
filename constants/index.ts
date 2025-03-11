@@ -153,12 +153,12 @@ export const contactData = [
   {
     id: 1,
     icon: BiLogoGmail,
-    url: 'hurtmanriot@gmail.com', //replace with your email
+    url: 'mail.google.com/mail/?view=cm&fs=1&to=hurtmanriot@gmail.com',
   },
   {
     id: 2,
     icon: BsTelegram,
-    url: 'https://t.me/hurtmanriot', //replace with your telegram
+    url: 'https://t.me/hurtmanriot',
   },
   {
     id: 3,
@@ -168,6 +168,6 @@ export const contactData = [
   {
     id: 4,
     icon: FaInstagram,
-    url: 'https://www.instagram.com/hurtmanriot/', //replace with your instagram
+    url: 'https://www.instagram.com/hurtmanriot/',
   },
 ];
