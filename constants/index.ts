@@ -168,6 +168,6 @@ export const contactData = [
   {
     id: 4,
     icon: FaInstagram,
-    url: 'https://www.instagram.com/hollowriot/', //replace with your instagram
+    url: 'https://www.instagram.com/hurtmanriot/', //replace with your instagram
   },
 ];
