@@ -5,7 +5,10 @@ import { contactData } from '@/constants';
 
 const Contact = () => {
   return (
-    <section className='w-full flex flex-col mt-10 max-w-[80%] mx-auto pb-10 xl:h-[50vh] relative h-full'>
+    <section
+      id='contact'
+      className='w-full flex flex-col mt-10 max-w-[80%] mx-auto pb-10 xl:h-[50vh] relative h-full'
+    >
       {/* Background Circle */}
       <div className='w-15 h-15 absolute top-0 left-45 rounded-full bg-gradient-to-r from-[#162f7a] to-[#f52b8f] bg-[length:150%_150%] animate-[bg-move_10s_infinite_linear] opacity-50 blur-md' />
       {/* Background Circle */}

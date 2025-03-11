@@ -17,7 +17,7 @@ import { BiLogoGmail } from 'react-icons/bi';
 export const headerData = [
   { id: 1, head: 'service', url: '#services' },
   { id: 2, head: 'portfolio', url: '/portfolio' },
-  { id: 3, head: 'contact', url: '/contact' },
+  { id: 3, head: 'contact', url: '#contact' },
 ];
 
 export const x = 'https://x.com/hollowriot';
