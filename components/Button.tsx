@@ -30,9 +30,11 @@ const Button: React.FC<ButtonProps> = ({
         href={url}
         className={`${baseStyles} inline-block`}
         target={target}
+        onClick={onClick}
         rel='noopener noreferrer'
       >
         {text}
+        {children}
       </a>
     );
   }

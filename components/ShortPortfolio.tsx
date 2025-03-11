@@ -47,6 +47,7 @@ const ShortPortfolio = () => {
           />
         </div>
       </div>
+      <div className='flex absolute bottom-0 left-0 w-full h-[1px] bg-gray-600' />
     </section>
   );
 };

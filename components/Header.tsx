@@ -52,7 +52,7 @@ const Header = () => {
       {/* Mobile Menu Button */}
       <Button
         onClick={() => setMenuOpen(!menuOpen)}
-        className='bg-transparent relative p-2 z-30'
+        className='bg-transparent relative p-2'
       >
         {menuOpen ? (
           <CgClose className='text-2xl block lg:hidden text-white' />
@@ -71,6 +71,17 @@ const Header = () => {
             transition={{ type: 'tween', duration: 0.3 }}
             className='fixed top-0 right-0 h-screen w-3/4 bg-gray-900 text-white shadow-lg flex flex-col items-center justify-center gap-6 z-20'
           >
+            {/* Mobile Menu Button */}
+            <Button
+              onClick={() => setMenuOpen(!menuOpen)}
+              className='bg-transparent absolute top-4 right-4 p-2 z-30'
+            >
+              {menuOpen ? (
+                <CgClose className='text-2xl block lg:hidden text-white' />
+              ) : (
+                <CgMenuRightAlt className='text-2xl block lg:hidden text-white' />
+              )}
+            </Button>
             {headerData.map((header) => (
               <Button
                 text={header.head}

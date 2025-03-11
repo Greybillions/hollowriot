@@ -1,19 +1,19 @@
 import Image from 'next/image';
 import React from 'react';
-import heroImg from '@/public/heroImg.png';
+import heroImg from '@/public/heroImg.jpeg';
 import { bgNotes } from '@/constants';
 import Button from './Button';
 
 const Hero = () => {
   return (
-    <section className='w-full flex flex-col lg:flex-row-reverse justify-center lg:gap-20 gap-5  items-center max-w-[80%] mx-auto pb-10 lg:h-[90vh] relative h-full'>
-      <div className='flex relative'>
+    <section className='w-full flex flex-col xl:flex-row-reverse justify-center lg:gap-20 gap-5  items-center max-w-[80%] mx-auto pb-10 lg:h-[90vh] relative h-full'>
+      <div className='flex relative rounded-full w-full h-full mt-10'>
         <Image
-          width={600}
-          height={500}
+          width={300}
+          height={300}
           src={heroImg}
           alt='Hero Image'
-          className='mx-auto z-10 relative'
+          className='mx-auto z-10 relative rounded-full md:w-[500px] md:h-[500px] h-[300px] w-[300px]'
         />
 
         {/* Background Text */}
@@ -21,7 +21,7 @@ const Hero = () => {
           {bgNotes.map((note) => (
             <span
               key={note.id}
-              className='relative md:text-xl text-sm w-auto max-w-full text-center px-1'
+              className='relative md:text-xl text-base w-auto max-w-full text-center px-1'
             >
               {note.text}
             </span>
@@ -31,10 +31,10 @@ const Hero = () => {
 
       <div className='flex relative z-10 flex-col justify-center h-full lg:gap-18 md:gap-15 gap-5 text-center items-start'>
         <h1 className='lg:text-7xl md:text-5xl text-4xl text-center w-full font-bold text-white'>
-          Digital Artist
+          Web3 Digital Artist and Illustrator
         </h1>
-        <p className='text-xl text-white'>
-          Creating unique and captivating art.
+        <p className='text-base text-white  w-full'>
+          Creating stickers, NFTs, unique and captivating art pieces.
         </p>
         <div
           className='flex mx-auto gap-5 justify-center p-[3px] rounded-xl items-center
