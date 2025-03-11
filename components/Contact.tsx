@@ -26,7 +26,7 @@ const Contact = () => {
           <BsChatLeftText className='inline-flex ml-2 self-center' />
         </p>
         <Button
-          url='https://mail.google.com/mail/?view=cm&fs=1&to=hurtmanriot@gmail.com'
+          url='https://mailto:hurtmanriot@gmail.com'
           text='hurtmanriot@gmail.com'
         />
       </div>
