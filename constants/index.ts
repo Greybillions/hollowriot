@@ -153,7 +153,7 @@ export const contactData = [
   {
     id: 1,
     icon: BiLogoGmail,
-    url: 'mail.google.com/mail/?view=cm&fs=1&to=hurtmanriot@gmail.com',
+    url: 'https://mail.google.com/mail/?view=cm&fs=1&to=hurtmanriot@gmail.com',
   },
   {
     id: 2,

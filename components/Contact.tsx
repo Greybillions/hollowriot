@@ -25,7 +25,10 @@ const Contact = () => {
           Do you have a project to discuss? Get in touch!{' '}
           <BsChatLeftText className='inline-flex ml-2 self-center' />
         </p>
-        <Button url='hurtmanriot@gmail.com' text='hurtmanriot@gmail.com' />
+        <Button
+          url='https://mail.google.com/mail/?view=cm&fs=1&to=hurtmanriot@gmail.com'
+          text='hurtmanriot@gmail.com'
+        />
       </div>
       <div className='flex justify-center flex-col lg:flex-row items-center gap-10 mt-10'>
         <p className='text-xl'>Reach out to me:</p>
